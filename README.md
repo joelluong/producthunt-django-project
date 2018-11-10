@@ -12,7 +12,7 @@ I will add Product Model, Product Details and design Home Page soon.
 
 The following photo is the Sign Up page:
 
-![alt text](static/signup.PNG)
+![alt text](producthunt/static/signup.PNG)
 
 ## Dependencies
 
