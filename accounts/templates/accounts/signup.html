@@ -8,26 +8,35 @@
     <br />
     <br />
     {% endif %}
-    <h1>Sign Up</h1>
-    <div>
-        <form method="POST" action="{% url 'signup' %}">
-            {% csrf_token %}
-            User Name:
-            <br />
-            <input type="text" name="username" />
-            <br/>
-            Password:
-            <br />
-            <input type="password" name="password1"/>
-            <br />
-            Confirm Password:
-            <br />
-            <input type="password" name="password2"/>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="card m-2">
+                <div class="card-header text-center">
+                    <h1 class="card-title">Sign Up</h1>
+                </div>
 
-            <br />
-            <br />
-            <input class="btn btn-primary" type="submit" value="Sign Up!">
-        </form>
+                <div class="card-body">
+                    <form method="POST" action="{% url 'signup' %}">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="username_id">User Name:</label>
+                            <input type="text" name="username" class="form-control" id="username_id" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password_id1">Password:</label>
+                            <input type="password" name="password1" class="form-control" id="password_id1" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password_id2">Confirm Password:</label>
+                            <input type="password" name="password2" class="form-control" id="password_id2" />
+                        </div>
+                        <input type="submit" value="Sign Up!" class="btn btn-primary" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
     </div>
 </div>
 
