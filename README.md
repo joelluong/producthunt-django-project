@@ -7,8 +7,7 @@
 
 ## Description
 
-This project is Product Hunt Clone which I used Python to create. Currently, I have completed User Authentication part including log in, sign up and log out.
-I will add Product Model, Product Details and design Home Page soon.
+This project is Product Hunt Clone which I used Python to create. This web application allows users login or register to create or vote products that they are interested. 
 
 The following photo is the Sign Up page:
 
@@ -16,4 +15,4 @@ The following photo is the Sign Up page:
 
 ## Dependencies
 
-The project is cooperated with a Python framework is Django and a JavaScript framework is Bootstrap
+The project is cooperated with a Python framework is Django, a JavaScript framework is Bootstrap and PostgreSQL.
